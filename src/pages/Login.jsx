@@ -3,7 +3,7 @@ import { Link,useNavigate } from "react-router-dom";
 
 
 function Login(props) {
-  const { user, setUser } = props;
+  const { user } = props;
 
   const [userN, setUserN] = useState("");
   const [userP, setUserP] = useState("");

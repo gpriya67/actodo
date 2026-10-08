@@ -10,7 +10,7 @@ function Signup(props) {
   const navigate = useNavigate()
 
   const handleChangeN = (e) => {
-    setUserN(e.target.value);
+    setUserN(e.target.value)
   };
 
   const handleChangeP = (e) => {
