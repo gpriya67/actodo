@@ -14,7 +14,7 @@ function Signup(props) {
   };
 
   const handleChangeP = (e) => {
-    setUserP(e.target.value);
+    setUserP(e.target.value)
   };
 
 

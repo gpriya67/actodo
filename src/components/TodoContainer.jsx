@@ -1,6 +1,6 @@
 import AddTodoForm from "./AddTodoForm";
 import TodoList from "./TodoList";
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 function TodoContainer() {
   const [activityArr, setActivityArr] = useState([
